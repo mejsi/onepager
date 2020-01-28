@@ -3,13 +3,42 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background-size: cover !important;
-	-webkit-background-size: cover !important;
    text-align: center;
    overflow: hidden;
 }
 
 /* vertically center banner section */
+
+body {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   background: url(images/bg.jpg);
+   background-size: cover;
+}
+.title {
+   font-family: 'Roboto', sans-serif;
+}
+.name {
+   font-weight: 200;
+   color: #5d9c9c;
+}
+.surname {
+   font-weight: 380;
+   color: #59726c;
+}
+.position {
+   font-weight: 200;
+}
+a {
+   color: #5d9c9c;
+}
+a:hover {
+   color: #59726c;
+}
+
+
 header:before {
    content: '';
    display: inline-block;
