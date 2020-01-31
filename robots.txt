@@ -1,2 +1,8 @@
 User-agent: *
 Disallow: /no-index/
+Disallow: /css/
+Disallow: /css/*
+Disallow: /images/
+Disallow: /LICENSE
+Disallow: /
+Disallow: /blog
