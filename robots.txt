@@ -4,5 +4,4 @@ Disallow: /css/
 Disallow: /css/*
 Disallow: /images/
 Disallow: /LICENSE
-
 Disallow: /blog
